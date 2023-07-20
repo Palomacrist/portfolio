@@ -10,12 +10,12 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -106,9 +106,9 @@ body {
 }
 
 .rodape{
-    padding: 24px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
+    padding: 24px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -124,7 +124,7 @@ body {
         justify-content: center;
     }
 
-    .apresentacao {
+    .apresentacao{
     flex-direction: column-reverse;
     padding: 5%;
    } 
@@ -132,5 +132,4 @@ body {
    .apresentacao__conteudo {
        width: auto;
    }
-
 }
